@@ -9,6 +9,10 @@
     "babel-preset-stage-2": "^6.24.1",
     "prettier": "^1.5.3"
   },
+  "scripts": {
+    "build": "babel lib -d dist",
+    "start": "babel-node lib/index.js"
+  },
   "babel": {
     "presets": ["es2015", "stage-2"]
   }
